@@ -46,8 +46,9 @@ footer {
 }
 .content-right img {
   height:230px;
-  border: 4px dashed var(--faintBlue);
-  border-radius: 50%;
+  width: 300px;
+  /* border: 4px dashed var(--faintBlue);
+  border-radius: 50%; */
 }
 * {
   margin: 0;
@@ -179,4 +180,10 @@ footer {
     .shareBtn{
       margin: 0 !important;
     }
+}
+
+.contact-us{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
